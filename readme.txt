@@ -23,3 +23,5 @@ git push origin master ---pushing the recent commit to remote repository
 
 GIT CHAPTER - 2
 
+git remote remove origin  --- to remove the origin repository
+
