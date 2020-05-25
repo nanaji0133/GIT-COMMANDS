@@ -25,4 +25,28 @@ GIT CHAPTER - 2
 
 git remote remove origin  --- to remove the origin repository
  
+git pull = git fetch + git rebase
+
+local            remote
+
+commit 1         commit 1
+commit 2         commit 3(some one changed)
+
+git fetch + rebase
+
+commit 1
+commit 2
+commit 3 (this is our latest commit now)
+
+git pull
+
+commit 1
+commit 2
+commit 3
+commit 4 (it will create new commit which is a merged commit)
+
+
+git branch --set-upstream-to=origin/<branch> master  ---to track 
+                                                        information for the rebase branch
+
 
