@@ -48,5 +48,9 @@ commit 4 (it will create new commit which is a merged commit)
 
 git branch --set-upstream-to=origin/<branch> master  ---to track 
                                                         information for the rebase branch
+                                                        
+                                                        
+git fetch --- fetch the code
 
+git rebase ---modifies the code and adds the latest commit
 
