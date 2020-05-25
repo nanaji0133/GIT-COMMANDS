@@ -73,3 +73,6 @@ git checkout <branch name> --- to go to that branch
 --> do changes in the branch and push, merge with the master branch
 
 git reset HEAD <branch name> --- to untrack a file
+
+git merge test  ---merging the test branch to the main branch
+
