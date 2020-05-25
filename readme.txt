@@ -54,6 +54,4 @@ git fetch --- fetch the code
 
 git rebase ---modifies the code and adds the latest commit
 
-#added some comment
-
-#some random comment 
+#in the test branch
