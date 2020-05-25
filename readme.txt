@@ -24,6 +24,8 @@ git push origin master ---pushing the recent commit to remote repository
 GIT CHAPTER - 2
 
 git remote remove origin  --- to remove the origin repository
+
+git pull ---pulls the code of the commit made by other developer
  
 git pull = git fetch + git rebase
 
@@ -54,4 +56,17 @@ git fetch --- fetch the code
 
 git rebase ---modifies the code and adds the latest commit
 
-#in the test branch
+
+if you made changes and havent pushed the code and u r pulling others commit, then to check
+both of your changes and to decide
+git stash ===> git pull
+
+
+CHAPTER - 3
+
+git branch --- shows the existing branches
+
+git branch test --- create a branch with name test
+
+git checkout <branch name> --- to go to that branch
+
