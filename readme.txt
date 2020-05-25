@@ -67,3 +67,4 @@ git branch --- shows the existing branches
 
 git branch test --- create a branch with name test
 
+git checkout <branch name> --- to go to that branch
