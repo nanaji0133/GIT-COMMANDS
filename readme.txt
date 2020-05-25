@@ -25,3 +25,5 @@ GIT CHAPTER - 2
 
 git remote remove origin  --- to remove the origin repository
 
+#adding from the git 
+
