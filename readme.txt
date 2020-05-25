@@ -56,6 +56,7 @@ git fetch --- fetch the code
 
 git rebase ---modifies the code and adds the latest commit
 
+
 if you made changes and havent pushed the code and u r pulling others commit, then to check
 both of your changes and to decide
 git stash ===> git pull
@@ -68,3 +69,4 @@ git branch --- shows the existing branches
 git branch test --- create a branch with name test
 
 git checkout <branch name> --- to go to that branch
+
