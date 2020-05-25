@@ -56,23 +56,3 @@ git fetch --- fetch the code
 
 git rebase ---modifies the code and adds the latest commit
 
-if you made changes and havent pushed the code and u r pulling others commit, then to check
-both of your changes and to decide
-git stash ===> git pull
-
-
-CHAPTER - 3
-
-git branch --- shows the existing branches
-
-git branch test --- create a branch with name test
-
-git checkout <branch name> --- to go to that branch
-
-
---> do changes in the branch and push, merge with the master branch
-
-git reset HEAD <branch name> --- to untrack a file
-
-git merge test  ---merging the test branch to the main branch
-
